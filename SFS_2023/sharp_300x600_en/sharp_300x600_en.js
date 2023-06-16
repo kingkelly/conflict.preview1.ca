@@ -612,14 +612,15 @@ if (reversed == null) { reversed = false; }
 	this.instance_8.setTransform(110.05,327.2);
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(4).to({_off:false},0).to({_off:true,x:110.05},21,cjs.Ease.quartOut).wait(202));
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(4).to({_off:false},21,cjs.Ease.quartOut).wait(60).to({startPosition:0},0).to({alpha:0},17,cjs.Ease.quartInOut).to({_off:true},1).wait(124));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(6).to({_off:false},0).to({_off:true,x:110.05},21,cjs.Ease.quartOut).wait(200));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(6).to({_off:false},21,cjs.Ease.quartOut).wait(58).to({startPosition:0},0).to({alpha:0},17,cjs.Ease.quartInOut).to({_off:true},1).wait(124));
 
 	// text1
 	this.instance_9 = new lib.text1();
 	this.instance_9.setTransform(-112.8,252.6,1,1,0,0,0,74.8,24);
+	this.instance_9._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).to({x:94.8},21,cjs.Ease.quartOut).wait(61).to({alpha:0},17,cjs.Ease.quartInOut).to({_off:true},4).wait(124));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(2).to({_off:false},0).to({x:94.8},21,cjs.Ease.quartOut).wait(59).to({alpha:0},17,cjs.Ease.quartInOut).to({_off:true},4).wait(124));
 
 	// bg
 	this.shape = new cjs.Shape();
