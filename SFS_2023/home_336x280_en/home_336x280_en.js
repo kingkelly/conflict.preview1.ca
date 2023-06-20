@@ -288,7 +288,7 @@ if (reversed == null) { reversed = false; }
 	// Layer_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AAfAVIgDgWIgKAWIgFAAIgJgWIgDAWIgLAAIAHgpIALAAIAIAUIAJgUIALAAIAHApgAghAVIAAgfIgJAAIAAgKIAeAAIAAAKIgJAAIAAAfg");
-	this.shape.setTransform(152.3051,-9.1743,0.66,0.66);
+	this.shape.setTransform(148.3153,-9.1697,0.462,0.462);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FFFFFF").s().p("AgLALQgFgEAAgHQAAgGAFgEQAEgEAHAAQAIAAAFAEQAEAEAAAGQAAAHgEAEQgFAEgIAAQgHAAgEgEg");
@@ -350,7 +350,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.endText, new cjs.Rectangle(13.2,-13.2,142,18), null);
+}).prototype = getMCSymbolPrototype(lib.endText, new cjs.Rectangle(13.2,-13.2,139.3,18), null);
 
 
 (lib.CTA = function(mode,startPosition,loop,reversed) {
