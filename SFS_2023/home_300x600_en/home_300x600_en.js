@@ -540,7 +540,7 @@ if (reversed == null) { reversed = false; }
 	this.instance.alpha = 0;
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(173).to({_off:false},0).to({alpha:1},22,cjs.Ease.cubicInOut).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(173).to({_off:false},0).to({y:477.2,alpha:1},22,cjs.Ease.cubicInOut).wait(1));
 
 	// EndText
 	this.instance_1 = new lib.endText();
