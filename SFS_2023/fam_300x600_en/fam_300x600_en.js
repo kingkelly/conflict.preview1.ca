@@ -936,7 +936,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_6 = new lib.CTA();
 	this.instance_6.setTransform(84.45,285.9,1,1,0,0,0,62,18);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(249).to({alpha:0},17,cjs.Ease.quartInOut).to({_off:true},1).wait(76));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(145).to({y:220.9},23,cjs.Ease.quartInOut).wait(81).to({alpha:0},17,cjs.Ease.quartInOut).to({_off:true},1).wait(76));
 
 	// Ctext4
 	this.instance_7 = new lib.Ctext4();
