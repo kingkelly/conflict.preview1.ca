@@ -536,11 +536,11 @@ if (reversed == null) { reversed = false; }
 
 	// cta_end
 	this.instance = new lib.CTA();
-	this.instance.setTransform(150,489.7,1,1,0,0,0,62,18);
+	this.instance.setTransform(150,477.2,1,1,0,0,0,62,18);
 	this.instance.alpha = 0;
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(173).to({_off:false},0).to({y:477.2,alpha:1},22,cjs.Ease.cubicInOut).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(173).to({_off:false},0).to({alpha:1},22,cjs.Ease.cubicInOut).wait(1));
 
 	// EndText
 	this.instance_1 = new lib.endText();
