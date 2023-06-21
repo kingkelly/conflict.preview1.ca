@@ -3,7 +3,8 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"fam_320x100_en_atlas_1", frames: [[791,0,112,123],[559,0,114,124],[675,0,114,123],[0,0,557,190]]}
+		{name:"fam_320x100_en_atlas_P_1", frames: [[116,0,112,123],[0,0,114,124],[0,126,114,123]]},
+		{name:"fam_320x100_en_atlas_NP_1", frames: [[0,0,557,190]]}
 ];
 
 
@@ -28,29 +29,29 @@ lib.ssMetadata = [
 
 
 (lib.Asset2pngcopy = function() {
-	this.initialize(ss["fam_320x100_en_atlas_1"]);
+	this.initialize(ss["fam_320x100_en_atlas_P_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Asset3 = function() {
-	this.initialize(ss["fam_320x100_en_atlas_1"]);
+	this.initialize(ss["fam_320x100_en_atlas_P_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Asset4 = function() {
-	this.initialize(ss["fam_320x100_en_atlas_1"]);
+	this.initialize(ss["fam_320x100_en_atlas_P_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Asset5mobiBG = function() {
-	this.initialize(ss["fam_320x100_en_atlas_1"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["fam_320x100_en_atlas_NP_1"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -816,7 +817,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/fam_320x100_en_atlas_1.png", id:"fam_320x100_en_atlas_1"}
+		{src:"images/fam_320x100_en_atlas_P_1.png", id:"fam_320x100_en_atlas_P_1"},
+		{src:"images/fam_320x100_en_atlas_NP_1.jpg", id:"fam_320x100_en_atlas_NP_1"}
 	],
 	preloads: []
 };
