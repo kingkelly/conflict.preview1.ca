@@ -472,7 +472,7 @@ if (reversed == null) { reversed = false; }
 	// Layer_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AgbBXIgNgEIACgpQAIAEAHAAQAEAAACgDQACgCAAgGIAAh6IA4AAIAAB6QAAAcgNANQgMAMgXAAIgUgBg");
-	this.shape.setTransform(62.475,24.675);
+	this.shape.setTransform(62.475,24.175);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
