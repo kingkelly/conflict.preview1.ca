@@ -3,8 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"jetfam_300x250_en_atlas_P_1", frames: [[0,465,131,130],[133,465,121,121],[256,465,121,121],[0,0,557,463]]},
-		{name:"jetfam_300x250_en_atlas_NP_1", frames: [[0,0,558,1110]]}
+		{name:"jetfam_300x250_en_atlas_P_1", frames: [[0,465,131,130],[133,465,121,121],[256,465,121,121],[0,0,557,463]]}
 ];
 
 
@@ -25,13 +24,6 @@ lib.ssMetadata = [
 	}
 }).prototype = p = new cjs.MovieClip();
 // symbols:
-
-
-
-(lib.Asset1 = function() {
-	this.initialize(ss["jetfam_300x250_en_atlas_NP_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
 
 
 
@@ -996,14 +988,11 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(258).to({x:302.8},16,cjs.Ease.quartInOut).wait(69));
 
 	// bg
-	this.instance_17 = new lib.Asset1();
-	this.instance_17.setTransform(0,0,0.5376,0.5405);
-
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#231F20").s().p("EgXbAu4MAAAhdvMAu3AAAMAAABdvg");
 	this.shape.setTransform(150,300);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.instance_17}]}).wait(343));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(343));
 
 	this._renderFirstFrame();
 
@@ -1018,8 +1007,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/jetfam_300x250_en_atlas_P_1.png", id:"jetfam_300x250_en_atlas_P_1"},
-		{src:"images/jetfam_300x250_en_atlas_NP_1.jpg", id:"jetfam_300x250_en_atlas_NP_1"}
+		{src:"images/jetfam_300x250_en_atlas_P_1.png", id:"jetfam_300x250_en_atlas_P_1"}
 	],
 	preloads: []
 };
