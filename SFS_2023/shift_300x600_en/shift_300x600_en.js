@@ -3,8 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"shift_300x600_en_atlas_P_1", frames: [[0,0,252,297],[254,0,241,272]]},
-		{name:"shift_300x600_en_atlas_NP_1", frames: [[0,0,558,1110]]}
+		{name:"shift_300x600_en_atlas_1", frames: [[0,0,558,1110],[560,0,252,297],[560,299,241,272]]}
 ];
 
 
@@ -29,22 +28,22 @@ lib.ssMetadata = [
 
 
 (lib.Asset1 = function() {
-	this.initialize(ss["shift_300x600_en_atlas_NP_1"]);
+	this.initialize(ss["shift_300x600_en_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Asset2pngcopy = function() {
-	this.initialize(ss["shift_300x600_en_atlas_P_1"]);
-	this.gotoAndStop(0);
+	this.initialize(ss["shift_300x600_en_atlas_1"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Asset3 = function() {
-	this.initialize(ss["shift_300x600_en_atlas_P_1"]);
-	this.gotoAndStop(1);
+	this.initialize(ss["shift_300x600_en_atlas_1"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -890,8 +889,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/shift_300x600_en_atlas_P_1.png", id:"shift_300x600_en_atlas_P_1"},
-		{src:"images/shift_300x600_en_atlas_NP_1.jpg", id:"shift_300x600_en_atlas_NP_1"}
+		{src:"images/shift_300x600_en_atlas_1.jpg", id:"shift_300x600_en_atlas_1"}
 	],
 	preloads: []
 };
