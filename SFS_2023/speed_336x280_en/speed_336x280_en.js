@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"speed_336x280_en_atlas_P_1", frames: [[0,0,557,462]]}
+		{name:"speed_336x280_en_atlas_P_1", frames: [[0,0,450,377]]}
 ];
 
 
@@ -161,13 +161,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.Asset6tearBB();
-	this.instance.setTransform(-9,0,0.5452,0.5452);
+	this.instance.setTransform(-24,-11,0.7066,0.7066);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.rip, new cjs.Rectangle(-9,0,303.7,251.9), null);
+}).prototype = getMCSymbolPrototype(lib.rip, new cjs.Rectangle(-24,-11,318,266.4), null);
 
 
 (lib.logo_en_stacked = function(mode,startPosition,loop,reversed) {
@@ -824,7 +824,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-122.7,138.9,662.2,533.1);
+p.nominalBounds = new cjs.Rectangle(-122.7,126.6,661.3000000000001,545.4);
 // library properties:
 lib.properties = {
 	id: '758E0282264D47629A39BAD509FAEF4B',
