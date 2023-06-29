@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"speed_320x100_en_atlas_P_1", frames: [[0,0,395,191]]}
+		{name:"speed_320x100_en_atlas_P_1", frames: [[0,0,480,150]]}
 ];
 
 
@@ -161,13 +161,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.Asset7mobiCCMTear();
-	this.instance.setTransform(60,9,0.55,0.55);
+	this.instance.setTransform(-53,11,0.6851,0.6851);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Symbol2, new cjs.Rectangle(60,9,217.3,105.1), null);
+}).prototype = getMCSymbolPrototype(lib.Symbol2, new cjs.Rectangle(-53,11,328.9,102.8), null);
 
 
 (lib.ClipGroup = function(mode,startPosition,loop,reversed) {
@@ -580,21 +580,21 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AAKARIgBgTIgEATIgJAAIgFgTIAAATIgLAAIACghIAPAAIADASIAFgSIAOAAIACAhg");
-	this.shape.setTransform(188.35,103.5);
+	this.shape.graphics.f("#FFFFFF").s().p("AAKASIgBgTIgEATIgJAAIgEgTIgBATIgLAAIACgiIAOAAIAEASIAEgSIAPAAIACAig");
+	this.shape.setTransform(188.5,103.35);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("AgFARIAAgYIgIAAIAAgJIAbAAIAAAJIgJAAIAAAYg");
-	this.shape_1.setTransform(184.85,103.5);
+	this.shape_1.graphics.f("#FFFFFF").s().p("AgFASIAAgZIgIAAIAAgJIAbAAIAAAJIgIAAIAAAZg");
+	this.shape_1.setTransform(185,103.35);
 
 	this.instance = new lib.ClipGroup();
-	this.instance.setTransform(29.55,81.4,2.8064,2.8064,0,0,0,60.7,21.4);
+	this.instance.setTransform(29.7,81.25,2.8063,2.8063,0,0,0,60.7,21.4);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.shape_1},{t:this.shape}]}).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.logo_en_stacked, new cjs.Rectangle(-140.8,21.4,347.3,119.4), null);
+}).prototype = getMCSymbolPrototype(lib.logo_en_stacked, new cjs.Rectangle(-140.6,21.2,347.2,119.39999999999999), null);
 
 
 (lib.endText = function(mode,startPosition,loop,reversed) {
@@ -703,7 +703,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-108.2,47,598.5,173.8);
+p.nominalBounds = new cjs.Rectangle(-108.2,49,597.1,171.8);
 // library properties:
 lib.properties = {
 	id: '758E0282264D47629A39BAD509FAEF4B',

@@ -770,7 +770,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_7 = new lib.rip();
 	this.instance_7.setTransform(363.7,45.3,1,1,0,0,0,365.7,46.3);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(243).to({x:623.7},24,cjs.Ease.quartInOut).to({_off:true},1).wait(75));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(243).to({x:643.7},24,cjs.Ease.quartInOut).to({_off:true},1).wait(75));
 
 	// bg
 	this.shape = new cjs.Shape();
@@ -782,7 +782,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-108.1,44,1097.8999999999999,47.599999999999994);
+p.nominalBounds = new cjs.Rectangle(-108.1,44,1117.8999999999999,47.599999999999994);
 // library properties:
 lib.properties = {
 	id: '758E0282264D47629A39BAD509FAEF4B',
