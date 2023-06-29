@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"shift_300x600_en_atlas_1", frames: [[0,0,558,1110],[560,0,252,297],[560,299,241,272]]}
+		{name:"shift_300x600_en_atlas_1", frames: [[0,0,558,1110],[560,0,502,593],[560,595,360,406]]}
 ];
 
 
@@ -34,14 +34,14 @@ lib.ssMetadata = [
 
 
 
-(lib.Asset2pngcopy = function() {
+(lib.Asset14shiftImage1DBL = function() {
 	this.initialize(ss["shift_300x600_en_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Asset3 = function() {
+(lib.Asset15shiftImage2DBLjpgcopy = function() {
 	this.initialize(ss["shift_300x600_en_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -173,27 +173,9 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_2 (mask)
-	var mask = new cjs.Shape();
-	mask._off = true;
-	mask.graphics.p("A1IX3MAAAgvtMAqRAAAMAAAAvtg");
-	mask.setTransform(4.55,47.95);
-
-	// Layer_1
-	this.instance = new lib.Asset3();
-	this.instance.setTransform(-132,-106,1.1232,1.1232);
-
-	var maskedShapeInstanceList = [this.instance];
-
-	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
-		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
-	}
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.skate2, new cjs.Rectangle(-130.8,-104.8,269.5,304.3), null);
+}).prototype = getMCSymbolPrototype(lib.skate2, new cjs.Rectangle(-130.8,-104.8,268.8,304.3), null);
 
 
 (lib.skate1 = function(mode,startPosition,loop,reversed) {
@@ -214,8 +196,8 @@ if (reversed == null) { reversed = false; }
 	mask.setTransform(93.5,93.7105);
 
 	// Layer_1
-	this.instance = new lib.Asset2pngcopy();
-	this.instance.setTransform(-44,-68,1.1,1.1);
+	this.instance = new lib.Asset14shiftImage1DBL();
+	this.instance.setTransform(-43,-68,0.5513,0.5513);
 
 	var maskedShapeInstanceList = [this.instance];
 
@@ -227,7 +209,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.skate1, new cjs.Rectangle(-44,-66.8,275,321), null);
+}).prototype = getMCSymbolPrototype(lib.skate1, new cjs.Rectangle(-43,-66.8,274,321), null);
 
 
 (lib.logo_en_stacked = function(mode,startPosition,loop,reversed) {

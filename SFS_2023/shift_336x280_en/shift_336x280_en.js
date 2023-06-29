@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"shift_336x280_en_atlas_1", frames: [[0,0,558,1110],[0,1112,252,297],[0,1411,282,170]]}
+		{name:"shift_336x280_en_atlas_1", frames: [[0,0,558,1110],[0,1112,332,174],[334,1112,282,170]]}
 ];
 
 
@@ -34,14 +34,14 @@ lib.ssMetadata = [
 
 
 
-(lib.Asset2pngcopy = function() {
+(lib.Asset16shiftImage1BB = function() {
 	this.initialize(ss["shift_336x280_en_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Asset8shiftImage2BB = function() {
+(lib.Asset17shiftImage2BB = function() {
 	this.initialize(ss["shift_336x280_en_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -179,9 +179,9 @@ if (reversed == null) { reversed = false; }
 	mask.graphics.p("AtWhEIAAyYIatAAIAASYg");
 	mask.setTransform(53.525,-124.5087);
 
-	// Layer_2
-	this.instance = new lib.Asset8shiftImage2BB();
-	this.instance.setTransform(-33,-250,0.6927,0.6927);
+	// Layer_4
+	this.instance = new lib.Asset17shiftImage2BB();
+	this.instance.setTransform(-33,-251,0.6985,0.6985);
 
 	var maskedShapeInstanceList = [this.instance];
 
@@ -210,12 +210,12 @@ if (reversed == null) { reversed = false; }
 	// Layer_1 (mask)
 	var mask = new cjs.Shape();
 	mask._off = true;
-	mask.graphics.p("AsuI5IAAxxIZcAAIAARxg");
-	mask.setTransform(178.4,-113.7);
+	mask.graphics.p("AlJEzIAAyHIZcAAIAASHg");
+	mask.setTransform(129.925,-85.3228);
 
-	// Layer_2
-	this.instance = new lib.Asset2pngcopy();
-	this.instance.setTransform(95,-223,0.6531,0.6531);
+	// Layer_3
+	this.instance = new lib.Asset16shiftImage1BB();
+	this.instance.setTransform(66,-172,0.6767,0.6767);
 
 	var maskedShapeInstanceList = [this.instance];
 
@@ -227,7 +227,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.skate1, new cjs.Rectangle(97,-170.6,162.60000000000002,113.89999999999999), null);
+}).prototype = getMCSymbolPrototype(lib.skate1, new cjs.Rectangle(97,-170.6,162.89999999999998,116), null);
 
 
 (lib.logo_en_stacked = function(mode,startPosition,loop,reversed) {
@@ -879,7 +879,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-122.7,140,679.7,532);
+p.nominalBounds = new cjs.Rectangle(-122.7,140,681.5,532);
 // library properties:
 lib.properties = {
 	id: '758E0282264D47629A39BAD509FAEF4B',
