@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"jetfam_728x90_en_atlas_P_1", frames: [[1463,0,131,130],[1596,0,121,121],[1719,0,121,121],[0,0,1461,185]]}
+		{name:"jetfam_728x90_en_atlas_P_1", frames: [[0,126,131,130],[133,126,121,121],[256,126,121,121],[0,0,1000,124]]}
 ];
 
 
@@ -348,13 +348,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.Asset8jetfamTearLB();
-	this.instance.setTransform(0,0,0.5005,0.5005);
+	this.instance.setTransform(-10,0,0.7424,0.7424);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.rip, new cjs.Rectangle(0,0,731.3,92.6), null);
+}).prototype = getMCSymbolPrototype(lib.rip, new cjs.Rectangle(-10,0,742.4,92.1), null);
 
 
 (lib.ClipGroup = function(mode,startPosition,loop,reversed) {
@@ -810,7 +810,7 @@ if (reversed == null) { reversed = false; }
 
 	// rip
 	this.instance_9 = new lib.rip();
-	this.instance_9.setTransform(363.7,45.3,1,1,0,0,0,365.7,46.3);
+	this.instance_9.setTransform(373.7,45.3,1,1,0,0,0,365.7,46.3);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(243).to({x:683.7},24,cjs.Ease.quartInOut).to({_off:true},1).wait(75));
 
@@ -824,7 +824,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-108.1,44,1157.3999999999999,47.599999999999994);
+p.nominalBounds = new cjs.Rectangle(-108.1,44,1158.5,47.099999999999994);
 // library properties:
 lib.properties = {
 	id: '758E0282264D47629A39BAD509FAEF4B',

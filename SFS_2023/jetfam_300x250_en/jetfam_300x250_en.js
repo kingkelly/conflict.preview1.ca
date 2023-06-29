@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"jetfam_300x250_en_atlas_P_1", frames: [[0,465,131,130],[133,465,121,121],[256,465,121,121],[0,0,557,463]]}
+		{name:"jetfam_300x250_en_atlas_P_1", frames: [[0,468,131,130],[133,468,121,121],[256,468,121,121],[0,0,557,466]]}
 ];
 
 
@@ -288,13 +288,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.Asset6tearBB();
-	this.instance.setTransform(0,0,0.5452,0.5452);
+	this.instance.setTransform(20,0,0.5452,0.5452);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.rip, new cjs.Rectangle(0,0,303.7,252.5), null);
+}).prototype = getMCSymbolPrototype(lib.rip, new cjs.Rectangle(20,0,303.7,254.1), null);
 
 
 (lib.logo_en_stacked = function(mode,startPosition,loop,reversed) {
@@ -923,7 +923,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-109.6,124,564.3,476);
+p.nominalBounds = new cjs.Rectangle(-109.6,124,584.3,476);
 // library properties:
 lib.properties = {
 	id: '758E0282264D47629A39BAD509FAEF4B',
