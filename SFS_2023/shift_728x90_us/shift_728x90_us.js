@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"shift_728x90_us_atlas_1", frames: [[0,0,558,1110],[0,1112,510,184],[0,1298,509,184]]}
+		{name:"shift_728x90_us_atlas_1", frames: [[0,0,558,1110],[0,1112,510,184]]}
 ];
 
 
@@ -37,13 +37,6 @@ lib.ssMetadata = [
 (lib.Asset2pngcopy = function() {
 	this.initialize(ss["shift_728x90_us_atlas_1"]);
 	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Asset3 = function() {
-	this.initialize(ss["shift_728x90_us_atlas_1"]);
-	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -240,28 +233,6 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.text1, new cjs.Rectangle(-1.2,-210.3,221.39999999999998,27), null);
-
-
-(lib.skate2 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.instance = new lib.Asset3();
-	this.instance.setTransform(-28,-302,0.4527,0.4527);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.skate2, new cjs.Rectangle(-28,-302,230.4,83.30000000000001), null);
 
 
 (lib.skate1 = function(mode,startPosition,loop,reversed) {
@@ -720,58 +691,51 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(256).to({_off:false},0).to({alpha:1},29,cjs.Ease.quartInOut).wait(58));
 
-	// skate2
-	this.instance_3 = new lib.skate2();
-	this.instance_3.setTransform(724.05,406.25,1.12,1.12,0,0,0,57,62);
+	// skate1
+	this.instance_3 = new lib.skate1();
+	this.instance_3.setTransform(613.05,401.85,1.12,1.12,0,0,0,56.1,61.5);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(166).to({_off:false},0).to({x:564.4},20,cjs.Ease.quartOut).wait(57).to({x:827.15},18,cjs.Ease.quintInOut).wait(82));
-
-	// skate1
-	this.instance_4 = new lib.skate1();
-	this.instance_4.setTransform(613.05,401.85,1.12,1.12,0,0,0,56.1,61.5);
-	this.instance_4._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(23).to({_off:false},0).to({x:350.55},25,cjs.Ease.quartOut).to({_off:true},139).wait(156));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(23).to({_off:false},0).to({x:350.55},25,cjs.Ease.quartOut).wait(195).to({x:620.55},18,cjs.Ease.quintInOut).wait(82));
 
 	// Ctet2
-	this.instance_5 = new lib.Ctext2();
-	this.instance_5.setTransform(-167.9,282.9,1.12,1.12,0,0,0,74.7,24);
-	this.instance_5._off = true;
+	this.instance_4 = new lib.Ctext2();
+	this.instance_4.setTransform(-167.9,282.9,1.12,1.12,0,0,0,74.7,24);
+	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(154).to({_off:false},0).to({regX:74.8,x:106.15},22,cjs.Ease.quartOut).wait(65).to({alpha:0},17,cjs.Ease.quartInOut).to({_off:true},1).wait(84));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(154).to({_off:false},0).to({regX:74.8,x:106.15},22,cjs.Ease.quartOut).wait(65).to({alpha:0},17,cjs.Ease.quartInOut).to({_off:true},1).wait(84));
 
 	// Ctext1
-	this.instance_6 = new lib.Ctext1();
-	this.instance_6.setTransform(-132.9,282.9,1.12,1.12,0,0,0,74.7,24);
-	this.instance_6._off = true;
+	this.instance_5 = new lib.Ctext1();
+	this.instance_5.setTransform(-132.9,282.9,1.12,1.12,0,0,0,74.7,24);
+	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(151).to({_off:false},0).to({regX:74.8,x:106.15},22,cjs.Ease.quartOut).wait(65).to({alpha:0},17,cjs.Ease.quartInOut).to({_off:true},1).wait(87));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(151).to({_off:false},0).to({regX:74.8,x:106.15},22,cjs.Ease.quartOut).wait(65).to({alpha:0},17,cjs.Ease.quartInOut).to({_off:true},1).wait(87));
 
 	// text2
-	this.instance_7 = new lib.Tween2("synched",0);
-	this.instance_7.setTransform(-158.95,366.45,1.12,1.12);
-	this.instance_7._off = true;
+	this.instance_6 = new lib.Tween2("synched",0);
+	this.instance_6.setTransform(-158.95,366.45,1.12,1.12);
+	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(9).to({_off:false},0).to({x:123.25},21,cjs.Ease.quartOut).wait(95).to({startPosition:0},0).to({alpha:0},17,cjs.Ease.quartInOut).to({_off:true},1).wait(200));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(9).to({_off:false},0).to({x:123.25},21,cjs.Ease.quartOut).wait(95).to({startPosition:0},0).to({alpha:0},17,cjs.Ease.quartInOut).to({_off:true},1).wait(200));
 
 	// text1
-	this.instance_8 = new lib.text1();
-	this.instance_8.setTransform(-206.95,282.9,1.12,1.12,0,0,0,74.8,24);
-	this.instance_8._off = true;
+	this.instance_7 = new lib.text1();
+	this.instance_7.setTransform(-206.95,282.9,1.12,1.12,0,0,0,74.8,24);
+	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(5).to({_off:false},0).to({x:106.15},21,cjs.Ease.quartOut).wait(96).to({alpha:0},17,cjs.Ease.quartInOut).to({_off:true},4).wait(200));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(5).to({_off:false},0).to({x:106.15},21,cjs.Ease.quartOut).wait(96).to({alpha:0},17,cjs.Ease.quartInOut).to({_off:true},4).wait(200));
 
 	// bg
-	this.instance_9 = new lib.Asset1();
-	this.instance_9.setTransform(728,0,0.6198,0.6558,90);
+	this.instance_8 = new lib.Asset1();
+	this.instance_8.setTransform(728,0,0.6198,0.6558,90);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(343));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(343));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(71.9,43.1,918.8000000000001,302.79999999999995);
+p.nominalBounds = new cjs.Rectangle(71.9,43.1,926.3000000000001,302.79999999999995);
 // library properties:
 lib.properties = {
 	id: '758E0282264D47629A39BAD509FAEF4B',
