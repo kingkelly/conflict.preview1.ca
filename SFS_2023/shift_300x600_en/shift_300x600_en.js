@@ -173,6 +173,24 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
+	// Layer_2 (mask)
+	var mask = new cjs.Shape();
+	mask._off = true;
+	mask.graphics.p("A1IX3MAAAgvtMAqRAAAMAAAAvtg");
+	mask.setTransform(4.55,47.95);
+
+	// Layer_3
+	this.instance = new lib.Asset15shiftImage2DBLjpgcopy();
+	this.instance.setTransform(-132,-105,0.75,0.75);
+
+	var maskedShapeInstanceList = [this.instance];
+
+	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
+		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
+	}
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.skate2, new cjs.Rectangle(-130.8,-104.8,268.8,304.3), null);
