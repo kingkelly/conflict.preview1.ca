@@ -173,6 +173,24 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
+	// Layer_3 (mask)
+	var mask = new cjs.Shape();
+	mask._off = true;
+	mask.graphics.p("AtWhEIAAyYIatAAIAASYg");
+	mask.setTransform(53.525,-124.5087);
+
+	// Layer_4
+	this.instance = new lib.Asset17shiftImage2BB();
+	this.instance.setTransform(-33,-251,0.6985,0.6985);
+
+	var maskedShapeInstanceList = [this.instance];
+
+	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
+		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
+	}
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.skate2, new cjs.Rectangle(-32,-249,171.1,116.80000000000001), null);
@@ -774,7 +792,7 @@ if (reversed == null) { reversed = false; }
 	this.instance.alpha = 0;
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(309).to({_off:false},0).to({alpha:1},22,cjs.Ease.cubicInOut).wait(12));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(309).to({_off:false},0).to({alpha:1},23,cjs.Ease.cubicInOut).wait(11));
 
 	// EndText
 	this.instance_1 = new lib.endText();
