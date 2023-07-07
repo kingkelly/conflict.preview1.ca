@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"shift_300x600_fr_atlas_1", frames: [[0,0,558,1110],[560,0,502,593],[560,595,360,406]]}
+		{name:"shift_300x600_fr_atlas_1", frames: [[0,0,558,1110],[560,602,330,450],[560,0,521,600]]}
 ];
 
 
@@ -41,7 +41,7 @@ lib.ssMetadata = [
 
 
 
-(lib.Asset15shiftImage2DBLjpgcopy = function() {
+(lib.ScreenShot20230707at100539AM = function() {
 	this.initialize(ss["shift_300x600_fr_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -205,27 +205,15 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_2 (mask)
-	var mask = new cjs.Shape();
-	mask._off = true;
-	mask.graphics.p("A1IX3MAAAgvtMAqRAAAMAAAAvtg");
-	mask.setTransform(4.55,47.95);
-
 	// Layer_3
-	this.instance = new lib.Asset15shiftImage2DBLjpgcopy();
-	this.instance.setTransform(-132,-105,0.75,0.75);
-
-	var maskedShapeInstanceList = [this.instance];
-
-	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
-		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
-	}
+	this.instance = new lib.ScreenShot20230707at100539AM();
+	this.instance.setTransform(-186,-148,0.6735,0.6735);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.skate2, new cjs.Rectangle(-130.8,-104.8,268.8,304.3), null);
+}).prototype = getMCSymbolPrototype(lib.skate2, new cjs.Rectangle(-186,-148,350.9,404.1), null);
 
 
 (lib.skate1 = function(mode,startPosition,loop,reversed) {
@@ -239,27 +227,15 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_2 (mask)
-	var mask = new cjs.Shape();
-	mask._off = true;
-	mask.graphics.p("A1eZFMAAAgyJMAq9AAAMAAAAyJg");
-	mask.setTransform(93.5,93.7105);
-
-	// Layer_1
+	// Layer_3
 	this.instance = new lib.Asset14shiftImage1DBL();
-	this.instance.setTransform(-43,-68,0.5513,0.5513);
-
-	var maskedShapeInstanceList = [this.instance];
-
-	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
-		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
-	}
+	this.instance.setTransform(-42,-72,0.9233,0.9233);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.skate1, new cjs.Rectangle(-43,-66.8,274,321), null);
+}).prototype = getMCSymbolPrototype(lib.skate1, new cjs.Rectangle(-42,-72,304.7,415.5), null);
 
 
 (lib.logo_en_stacked = function(mode,startPosition,loop,reversed) {
@@ -843,17 +819,17 @@ if (reversed == null) { reversed = false; }
 
 	// skate2
 	this.instance_3 = new lib.skate2();
-	this.instance_3.setTransform(358.5,445,1,1,0,0,0,57,62);
+	this.instance_3.setTransform(488,383);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(165).to({_off:false},0).to({x:221},20,cjs.Ease.quartOut).wait(69).to({x:496},18,cjs.Ease.quintInOut).wait(71));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(165).to({_off:false},0).to({x:164},20,cjs.Ease.quartOut).wait(69).to({regX:57,regY:62,x:221,y:445},0).to({x:546},18,cjs.Ease.quintInOut).wait(71));
 
 	// skate1
 	this.instance_4 = new lib.skate1();
-	this.instance_4.setTransform(-183,368.5,1,1,0,0,0,56,61.5);
+	this.instance_4.setTransform(-243,368.5,1,1,0,0,0,56,61.5);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(29).to({_off:false},0).to({x:97},22,cjs.Ease.quartOut).wait(202).to({x:-196.75},18,cjs.Ease.quintInOut).wait(72));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(29).to({_off:false},0).to({x:97},22,cjs.Ease.quartOut).wait(202).to({x:-206.75},18,cjs.Ease.quintInOut).wait(72));
 
 	// cta
 	this.instance_5 = new lib.CTA();
@@ -923,7 +899,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-146.7,300,725.5999999999999,300);
+p.nominalBounds = new cjs.Rectangle(-191,300,844.9,350.5);
 // library properties:
 lib.properties = {
 	id: '758E0282264D47629A39BAD509FAEF4B',
