@@ -405,8 +405,8 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AgYAXQgJgIAAgPQAAgNAJgJQAKgHAOAAQAQAAAJAHQAJAJAAANQAAAPgJAIQgJAHgQAAQgOAAgKgHg");
-	this.shape.setTransform(152.625,-134.425);
+	this.shape.graphics.f("#FFFFFF").s().p("AgPAOQgGgEAAgKQAAgIAGgGQAGgEAJAAQAKAAAGAEQAGAGAAAIQAAAKgGAEQgGAGgKAAQgJAAgGgGg");
+	this.shape.setTransform(150.9,-133.45);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FFFFFF").s().p("AhOBJIAdgvQALAKASAGQANAFAIAAQAPAAAAgIQgBgGgOgFIgbgIQgSgIgJgHQgRgOAAgaQAAgcAXgTQATgQAkAAQApAAAcAXIgYAtQgKgJgPgFQgMgFgJAAQgPAAAAAIQAAAFANAEIAXAHQAWAHAKAJQATAPAAAaQgBAfgZAUQgVAQgjAAQgoAAgjgag");
@@ -448,7 +448,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Ctext3, new cjs.Rectangle(0,-156.1,159.8,32), null);
+}).prototype = getMCSymbolPrototype(lib.Ctext3, new cjs.Rectangle(0,-156.1,156.3,32), null);
 
 
 (lib.Ctext2 = function(mode,startPosition,loop,reversed) {
@@ -669,8 +669,8 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AgYAXQgJgIAAgPQAAgNAJgJQAKgHAOAAQAQAAAJAHQAJAJAAANQAAAPgJAIQgJAHgQAAQgOAAgKgHg");
-	this.shape.setTransform(81.375,-207.025);
+	this.shape.graphics.f("#FFFFFF").s().p("AgPAPQgGgGAAgJQAAgIAGgGQAGgEAJAAQAKAAAGAEQAGAGAAAIQAAAJgGAGQgGAEgKAAQgJAAgGgEg");
+	this.shape.setTransform(79.65,-206.05);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FFFFFF").s().p("AhKBJQgegbAAguQAAgtAegcQAdgaAtAAQAuAAAdAaQAeAcAAAtQAAAugeAbQgdAbguAAQgtAAgdgbgAgdghQgLANAAATQAAAUALANQAMAMARAAQATAAALgMQALgNAAgUQAAgTgLgNQgLgMgTAAQgRAAgMAMg");
@@ -713,7 +713,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-90,-228.7,178.5,32);
+p.nominalBounds = new cjs.Rectangle(-90,-228.7,175,32);
 
 
 (lib.Btext1 = function(mode,startPosition,loop,reversed) {

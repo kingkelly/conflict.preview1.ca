@@ -70,8 +70,8 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AgVAUQgIgHgBgNQABgMAIgHQAJgHAMAAQAOAAAJAHQAHAHABAMQgBANgHAHQgJAHgOAAQgMAAgJgHg");
-	this.shape.setTransform(363.5,-145.425);
+	this.shape.graphics.f("#FFFFFF").s().p("AgPAPQgGgGAAgJQAAgIAGgFQAGgGAJAAQAKAAAGAGQAGAFAAAIQAAAJgGAGQgGAEgKAAQgJAAgGgEg");
+	this.shape.setTransform(362.3,-144.75);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FFFFFF").s().p("AhCBCQgbgYAAgqQAAgoAbgYQAagYAoAAQApAAAaAYQAbAYAAAoQAAAqgbAYQgaAXgpAAQgoAAgagXgAgagdQgKALAAASQAAARAKALQAKALAQAAQARAAAKgLQAKgLAAgRQAAgSgKgLQgKgLgRAAQgQAAgKALg");
@@ -161,7 +161,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.text2, new cjs.Rectangle(-0.9,-165,371,29), null);
+}).prototype = getMCSymbolPrototype(lib.text2, new cjs.Rectangle(-0.9,-165,368.59999999999997,29), null);
 
 
 (lib.text1 = function(mode,startPosition,loop,reversed) {
@@ -440,8 +440,8 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AgVAUQgIgHgBgNQABgMAIgHQAJgHAMAAQAOAAAJAHQAHAHABAMQgBANgHAHQgJAHgOAAQgMAAgJgHg");
-	this.shape.setTransform(243.8,-169.825);
+	this.shape.graphics.f("#FFFFFF").s().p("AgPAPQgGgGAAgJQAAgIAGgGQAGgEAJAAQAKAAAGAEQAGAGAAAIQAAAJgGAGQgGAEgKAAQgJAAgGgEg");
+	this.shape.setTransform(242.6,-169.15);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FFFFFF").s().p("AhFBCIAZgrQALAJAPAGQANAEAGAAQANAAAAgIQAAgEgMgFIgYgIQgRgGgIgGQgQgMAAgYQAAgZAVgRQASgOAfAAQAlAAAZAUIgVAoQgKgIgNgFQgKgDgJAAQgMAAAAAGQAAAFAKADIAVAHQATAGAKAJQAQAMAAAYQAAAbgWASQgUAOgfAAQgjAAgfgWg");
@@ -511,7 +511,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Ctext2, new cjs.Rectangle(-4.8,-189.4,255.20000000000002,29), null);
+}).prototype = getMCSymbolPrototype(lib.Ctext2, new cjs.Rectangle(-4.8,-189.4,252.8,29), null);
 
 
 (lib.Ctext1 = function(mode,startPosition,loop,reversed) {
@@ -692,7 +692,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-90.9,-287.6,371,29);
+p.nominalBounds = new cjs.Rectangle(-90.9,-287.6,368.6,29);
 
 
 // stage content:

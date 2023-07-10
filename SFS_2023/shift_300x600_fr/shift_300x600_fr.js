@@ -381,8 +381,8 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AgYAXQgJgIAAgPQAAgNAJgJQAKgHAOAAQAQAAAJAHQAJAJAAANQAAAPgJAIQgJAHgQAAQgOAAgKgHg");
-	this.shape.setTransform(152.625,-130.825);
+	this.shape.graphics.f("#FFFFFF").s().p("AgQAPQgGgFAAgKQAAgJAGgFQAGgFAKgBQAKABAHAFQAGAFAAAJQAAAKgGAFQgGAGgLAAQgKAAgGgGg");
+	this.shape.setTransform(151.075,-129.95);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FFFFFF").s().p("AhOBJIAdgvQALAKASAGQANAFAIAAQAPAAAAgIQgBgGgOgFIgbgIQgSgIgJgHQgRgOAAgaQAAgcAXgTQATgQAkAAQApAAAcAXIgYAtQgKgJgPgFQgMgFgJAAQgPAAAAAIQAAAFANAEIAXAHQAWAHAKAJQATAPAAAaQgBAfgZAUQgVAQgjAAQgoAAgjgag");
@@ -424,7 +424,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Ctext3, new cjs.Rectangle(0,-152.5,159.8,32), null);
+}).prototype = getMCSymbolPrototype(lib.Ctext3, new cjs.Rectangle(0,-152.5,156.6,32), null);
 
 
 (lib.Ctext2 = function(mode,startPosition,loop,reversed) {
@@ -645,8 +645,8 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AgYAXQgJgIAAgPQAAgNAJgJQAKgHAOAAQAQAAAJAHQAJAJAAANQAAAPgJAIQgJAHgQAAQgOAAgKgHg");
-	this.shape.setTransform(81.375,-202.525);
+	this.shape.graphics.f("#FFFFFF").s().p("AgQAQQgGgGAAgKQAAgIAGgHQAGgEAKAAQAKAAAHAEQAGAHAAAIQAAAKgGAGQgGAEgLAAQgKAAgGgEg");
+	this.shape.setTransform(79.825,-201.65);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FFFFFF").s().p("AhKBJQgegbAAguQAAgtAegcQAdgaAtAAQAuAAAdAaQAeAcAAAtQAAAugeAbQgdAbguAAQgtAAgdgbgAgdghQgLANAAATQAAAUALANQAMAMARAAQATAAALgMQALgNAAgUQAAgTgLgNQgLgMgTAAQgRAAgMAMg");
@@ -689,7 +689,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-90,-224.2,184,32);
+p.nominalBounds = new cjs.Rectangle(-90,-224.2,179.1,32);
 
 
 (lib.Btext1 = function(mode,startPosition,loop,reversed) {

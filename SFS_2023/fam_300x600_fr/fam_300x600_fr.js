@@ -560,8 +560,8 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AgXAWQgJgIAAgOQAAgNAJgIQAJgHAOAAQAPAAAJAHQAJAIAAANQAAAOgJAIQgJAHgPAAQgOAAgJgHg");
-	this.shape.setTransform(69.55,-108.275);
+	this.shape.graphics.f("#FFFFFF").s().p("AgSASQgIgGAAgMQAAgKAIgGQAGgHAMAAQAMAAAIAHQAHAGAAAKQAAAMgHAGQgIAGgMAAQgMAAgGgGg");
+	this.shape.setTransform(68.7,-107.8);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FFFFFF").s().p("AAeBdIgeg7IgdA7IhJAAIA+hgIg6hZIBJAAIAZAyIAagyIBJAAIg7BZIA/Bgg");
@@ -583,7 +583,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Ctext4, new cjs.Rectangle(0,-129.2,76.5,30.999999999999986), null);
+}).prototype = getMCSymbolPrototype(lib.Ctext4, new cjs.Rectangle(0,-129.2,74.8,30.999999999999986), null);
 
 
 (lib.Ctext3 = function(mode,startPosition,loop,reversed) {
