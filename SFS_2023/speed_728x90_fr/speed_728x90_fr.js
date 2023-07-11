@@ -430,8 +430,8 @@ if (reversed == null) { reversed = false; }
 	this.shape_19.setTransform(123.5,-317.775);
 
 	this.shape_20 = new cjs.Shape();
-	this.shape_20.graphics.f("#FFFFFF").s().p("AiuBCIgKgDIACgeQAGACAFAAQABAAAAAAQABAAAAAAQABAAAAgBQABAAABgBQACAAAAgGIAAhbIAqAAIAABbQAAAVgJAKQgJAJgSAAIgQgBgACsgvQgEgDAAgFQAAgFAEgDQADgDAFAAIAFABIAAAGQgCgCgDAAQgFAAgBAGQAAAAABABQAAABAAAAQAAABAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAQACAAADgDIAAAHIgBAAIgEABQgFAAgDgDgACggsIgCgNIgFANIgCAAIgEgNIgCANIgGAAIAEgWIAFAAIAFAMIAEgMIAGAAIADAWg");
-	this.shape_20.setTransform(353.35,-317.275);
+	this.shape_20.graphics.f("#FFFFFF").s().p("AiuBCIgKgDIACgfQAGADAFAAQADAAACgCQACgBAAgFIAAhcIAqAAIAABcQAAAVgJAJQgIAKgTAAIgQgBgACsgvQgDgDAAgFQAAgEADgEQADgDAFAAIAFABIAAAGQgCgCgDAAQgFAAAAAGQAAABAAAAQAAABAAAAQAAABABAAQAAABAAAAQABABAAAAQABAAAAABQABAAAAAAQABAAAAAAQADAAACgDIAAAIIAAAAIgFAAQgFAAgDgDgAChgsIgCgMIgGAMIgCAAIgEgMIgCAMIgGAAIAEgVIAFAAIAFALIAEgLIAGAAIADAVg");
+	this.shape_20.setTransform(353.325,-317.3);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
 
