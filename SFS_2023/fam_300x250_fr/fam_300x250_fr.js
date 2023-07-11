@@ -403,20 +403,20 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AgJAKQgFgEAAgGQAAgFAFgEQAEgDAFAAQAHAAADADQAFAEAAAFQAAAGgFAEQgDADgHAAQgFAAgEgDg");
-	this.shape.setTransform(163.65,-195.475);
+	this.shape.graphics.f("#FFFFFF").s().p("AgrBZIADgsQAIADAHAAQAJAAAAgLIAAiBIA8AAIAACBQAAAdgOAOQgNANgZAAQgaAAgJgEg");
+	this.shape.setTransform(144.0152,-198.1113,0.4492,0.4492);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("AgcAgQgJgJAAgSIAAguIAcAAIAAAvQgBAHADACQADADAEAAQAFAAADgDQACgCAAgHIAAgvIAcAAIAAAuQAAASgJAJQgKAKgTAAQgSAAgKgKg");
-	this.shape_1.setTransform(157.45,-198.375);
+	this.shape_1.graphics.f("#FFFFFF").s().p("AgJAKQgFgEAAgGQAAgFAFgEQAEgDAFAAQAHAAADADQAFAEAAAFQAAAGgFAEQgDADgHAAQgFAAgEgDg");
+	this.shape_1.setTransform(163.75,-195.475);
 
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#FFFFFF").s().p("AgdApIAAhRIA6AAIAAAUIgfAAIAAAKIAdAAIAAAUIgdAAIAAAKIAgAAIAAAVg");
-	this.shape_2.setTransform(149.725,-198.45);
+	this.shape_2.graphics.f("#FFFFFF").s().p("AgcAgQgJgJAAgSIAAguIAbAAIAAAvQAAAHADACQADADAEAAQAEAAADgDQAEgCAAgHIAAgvIAbAAIAAAuQAAASgJAJQgKAKgTAAQgSAAgKgKg");
+	this.shape_2.setTransform(157.5,-198.375);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#FFFFFF").s().p("AgTAzIABgUIAHABQAFAAAAgFIAAhPIAaAAIAABPQgBAagWAAQgLAAgFgCg");
-	this.shape_3.setTransform(143.55,-197.325);
+	this.shape_3.graphics.f("#FFFFFF").s().p("AgdApIAAhRIA6AAIAAAUIgfAAIAAAKIAdAAIAAAUIgdAAIAAAKIAgAAIAAAVg");
+	this.shape_3.setTransform(149.775,-198.45);
 
 	this.shape_4 = new cjs.Shape();
 	this.shape_4.graphics.f("#FFFFFF").s().p("AAMApIgZgtIABAOIAAAfIgbAAIAAhRIAeAAIAXAsIgBgOIAAgeIAbAAIAABRg");
@@ -609,7 +609,7 @@ if (reversed == null) { reversed = false; }
 	// Layer_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AgrBZIADgsQAIADAHAAQAJAAAAgLIAAiBIA8AAIAACBQAAAdgOAOQgNANgZAAQgaAAgJgEg");
-	this.shape.setTransform(21.9201,-180.7774,0.8389,0.8389);
+	this.shape.setTransform(22.0097,-181.1628,0.8136,0.8136);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FFFFFF").s().p("AgYBMIAAhwIgjAAIAAgnIB3AAIAAAnIgjAAIAABwg");

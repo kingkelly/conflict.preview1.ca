@@ -294,20 +294,20 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AgJAKQgFgEAAgGQAAgFAFgEQAEgDAFAAQAHAAADADQAFAEAAAFQAAAGgFAEQgDADgHAAQgFAAgEgDg");
-	this.shape.setTransform(163.65,-195.475);
+	this.shape.graphics.f("#FFFFFF").s().p("AgrBZIADgsQAIADAHAAQAJAAAAgLIAAiBIA8AAIAACBQAAAdgOAOQgNANgZAAQgaAAgJgEg");
+	this.shape.setTransform(144.0152,-198.1113,0.4492,0.4492);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("AgcAgQgJgJAAgSIAAguIAcAAIAAAvQgBAHADACQADADAEAAQAFAAADgDQACgCAAgHIAAgvIAcAAIAAAuQAAASgJAJQgKAKgTAAQgSAAgKgKg");
-	this.shape_1.setTransform(157.45,-198.375);
+	this.shape_1.graphics.f("#FFFFFF").s().p("AgJAKQgFgEAAgGQAAgFAFgEQAEgDAFAAQAHAAADADQAFAEAAAFQAAAGgFAEQgDADgHAAQgFAAgEgDg");
+	this.shape_1.setTransform(163.75,-195.475);
 
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#FFFFFF").s().p("AgdApIAAhRIA6AAIAAAUIgfAAIAAAKIAdAAIAAAUIgdAAIAAAKIAgAAIAAAVg");
-	this.shape_2.setTransform(149.725,-198.45);
+	this.shape_2.graphics.f("#FFFFFF").s().p("AgcAgQgJgJAAgSIAAguIAbAAIAAAvQAAAHADACQADADAEAAQAEAAADgDQAEgCAAgHIAAgvIAbAAIAAAuQAAASgJAJQgKAKgTAAQgSAAgKgKg");
+	this.shape_2.setTransform(157.5,-198.375);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#FFFFFF").s().p("AgTAzIABgUIAHABQAFAAAAgFIAAhPIAaAAIAABPQgBAagWAAQgLAAgFgCg");
-	this.shape_3.setTransform(143.55,-197.325);
+	this.shape_3.graphics.f("#FFFFFF").s().p("AgdApIAAhRIA6AAIAAAUIgfAAIAAAKIAdAAIAAAUIgdAAIAAAKIAgAAIAAAVg");
+	this.shape_3.setTransform(149.775,-198.45);
 
 	this.shape_4 = new cjs.Shape();
 	this.shape_4.graphics.f("#FFFFFF").s().p("AAMApIgZgtIABAOIAAAfIgbAAIAAhRIAeAAIAXAsIgBgOIAAgeIAbAAIAABRg");
@@ -733,8 +733,8 @@ if (reversed == null) { reversed = false; }
 	this.shape_9.setTransform(-80.475,-231.2);
 
 	this.shape_10 = new cjs.Shape();
-	this.shape_10.graphics.f("#FFFFFF").s().p("AgaBRQgJgBgCgBIACgnQAGACAHABQADgBADgBQACgCAAgGIAAhzIA0AAIAABzQAAAZgMANQgLAMgVAAQgKAAgKgCg");
-	this.shape_10.setTransform(-29.675,-231.25);
+	this.shape_10.graphics.f("#FFFFFF").s().p("AgZBOQgIgBgDgCIACgkQAHACAGAAQADAAACgCQACgBAAgHIAAhtIAyAAIAABtQAAAZgLAMQgLALgUAAQgKAAgJgBg");
+	this.shape_10.setTransform(-29.6463,-231.5652,1.01,1.01);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
 
@@ -757,16 +757,16 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("Ag4BPIAAidIBvAAIAAAoIg8AAIAAASIA5AAIAAAoIg5AAIAAASIA+AAIAAApg");
-	this.shape.setTransform(110.2,-233.225);
+	this.shape.graphics.f("#FFFFFF").s().p("AgTA3QgIgHAAgMQAAgLAIgHQAHgHAMAAQANAAAHAHQAIAHAAALQAAAMgIAHQgHAGgNAAQgMAAgHgGgAgTgRQgIgGAAgMQAAgMAIgHQAHgGAMAAQANAAAHAGQAIAHAAAMQAAAMgIAGQgHAHgNAAQgMAAgHgHg");
+	this.shape.setTransform(82.875,-232.175);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("Ag0BPIAAidIA0AAIAABzIA1AAIAAAqg");
-	this.shape_1.setTransform(97.775,-233.225);
+	this.shape_1.graphics.f("#FFFFFF").s().p("Ag5BPIAAidIBwAAIAAAoIg8AAIAAASIA4AAIAAAoIg4AAIAAASIA/AAIAAApg");
+	this.shape_1.setTransform(111.05,-233.225);
 
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#FFFFFF").s().p("AgTA3QgIgHAAgMQAAgLAIgHQAHgHAMAAQANAAAHAHQAIAHAAALQAAAMgIAHQgHAGgNAAQgMAAgHgGgAgTgRQgIgGAAgMQAAgMAIgHQAHgGAMAAQANAAAHAGQAIAHAAAMQAAAMgIAGQgHAHgNAAQgMAAgHgHg");
-	this.shape_2.setTransform(82.875,-231.175);
+	this.shape_2.graphics.f("#FFFFFF").s().p("Ag0BPIAAidIA0AAIAABzIA1AAIAAAqg");
+	this.shape_2.setTransform(98.625,-233.225);
 
 	this.shape_3 = new cjs.Shape();
 	this.shape_3.graphics.f("#FFFFFF").s().p("AgZBPIAAh1IglAAIAAgoIB9AAIAAAoIglAAIAAB1g");
@@ -792,7 +792,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Btext1, new cjs.Rectangle(-1,-245.7,119.8,27), null);
+}).prototype = getMCSymbolPrototype(lib.Btext1, new cjs.Rectangle(-1,-246.7,120.7,28), null);
 
 
 (lib.Tween2 = function(mode,startPosition,loop,reversed) {
